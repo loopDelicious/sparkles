@@ -4,4 +4,6 @@ node_js: node
 install:
 - npm install newman
 
-script: newman -v
+script: 
+- newman -v
+- newman run Postman\ Echo.postman_collection.json
